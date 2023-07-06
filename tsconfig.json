@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "module": "CommonJS",
+      "outDir": "dist/",
+      "sourceMap": true,
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "lib": ["es6", "dom"],
+      "noEmitOnError":true
+
+    },
+    "include": [
+      "src/**/*.ts"
+, "src/model/productmodel.ts "    ],
+    "exclude": [
+      "node_modules"
+    ]
+  }
